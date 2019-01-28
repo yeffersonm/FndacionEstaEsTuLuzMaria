@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Fundacion Es Tu luz Maria</title>
+  </head>
+  <style>
+
+body{
+  background-repeat: no-repeat;
+  background-image: url(../imagenes/uploads/fondo1.jpg);
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+}
+header{
+  content: "";
+  display: table;
+  clear: both;
+}
+.containt{
+  width: 40%
+  padding: 10px 10px;
+}
+.logo{
+  width: 70vh;
+  height:40vh;
+  word-break: break-all;
+}
+.somos {
+  text-align: center;
+  text-decoration: none;
+  color: Black;
+  font-weight: bold;
+}
+  .show{
+    text-align: justify;
+    padding: -10px;
+    margin: 15px 5px;
+
+
+  }
+  .dos{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    left: 50%;
+    text-align: center;
+    text-align: justify;
+    float: left;
+    font-size: 22px;
+
+  }
+  .uno{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    right: 53%;
+    text-align: center;
+    text-align: justify;
+    font-size: 22px;
+  }
+  .cuno{
+    width: 49.7%;
+    height: 500px;
+  }
+  .cdos{
+    position: relative;
+    right: 0px;
+    left: 49%;
+    width: 50%;
+    margin-left: 0;
+  }
+  article
+  {
+    font-size: 26px;
+    text-align: justify;
+    padding-right: 0px;
+    margin-right: 0px;
+    color: white;
+    font-weight: bold;
+
+  }
+
+  footer{
+     width: 100%;
+     background: #4CAF50 ;
+     color: #000000;
+  }
+
+  .container-footer-all{
+     width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+  }
+
+  .container-body{
+   display: flex;
+   justify-content: space-between;
+  }
+  .colum1{
+     max-width: 400px;
+  }
+  .colum1 h1{
+     font-size: 22px;
+  }
+  .colum1 p{
+     font-size: 14px;
+     color: #000000;
+    margin-top: 20px;
+  }
+  .colum2{
+     max-width: 400px;
+  }
+  .colum2 h1{
+    font-size: 22px;
+  }
+  footer .row{
+     margin-top: 20px;
+     display: flex;
+  }
+
+  footer .row img{
+     width: 36px;
+     height: 36px;
+  }
+
+  .row a{
+     margin-top: 10px;
+     margin-left: 20px;
+     color: #000000;
+  }
+
+  .colum3{
+    max-width: 400px;
+  }
+
+  .colum3 h1{
+   font-size: 22px;
+  }
+  .row2{
+     margin-top: 20px;
+     display: flex;
+  }
+
+  .row2 img{
+     width: 36px;
+     height: 36px;
+  }
+  .row2 label{
+     margin-top: 10px;
+     margin-left: 20px;
+     max-width: 400px;
+  }
+
+  .container-footer{
+     width: 100%;
+     background: green;
+     border-style: double;
+     border-color: black;
+
+  }
+
+  .footer{
+     max-width: 1200px;
+     margin: auto;
+   display: flex;
+     justify-content: space-between;
+     padding: 20px;
+  }
+
+  .copyright{
+     color: #C7C7C7;
+  }
+
+  .copyright a{
+     text-decoration: none;
+     color: white;
+    font-weight: bold;
+  }
+
+  .information a{
+     text-decoration: none;
+   color: #FFFAF0;
+  }
+
+  @media screen and (max-width: 1100px){
+     .container-body{
+      flex-wrap: wrap;
+     }
+
+     .colum1{
+         max-width: 100%;
+     }
+    .colum2, .colum3{
+         margin-top: 40px;
+     }
+
+  }
+  p{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+
+
+
+
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #FFFAF0;
+      overflow-x: hidden;
+      transition: 0.90s;
+      padding-top: 60px;
+      text-align: center;
+      opacity: .90;
+  }
+
+  .sidenav a {
+      padding: 20px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #000000;
+      display: block;
+      transition: 0.3s;
+      font-weight: bold;
+  }
+
+  .sidenav a:hover {
+      color: #4CAF50;
+  }
+
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+  .lg {
+    position: relative;
+    width: 200px;
+    height: 1000px:
+  }
+
+  .cor
+  {
+
+    float: left;
+    color: black;
+  }
+  .cor a{
+    float: left;
+    position: relative;
+  }
+  .cor a img{
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+  span {
+    color: #4CAF50;
+    border-style: double;
+    border-color:black;
+    background-color: yellow;
+  }
+
+  #main {
+      transition: margin-left .90s;
+      padding: 5px;
+      position: fixed;
+      left: 0;
+      top:300px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  @media (max-width: 700px){
+
+    .logo{
+      width: 55vh;
+      height: 35vh;
+    }
+    .cuno{
+      width: 49.7%;
+      height: 200px;
+    }
+    .cdos{
+      position: relative;
+      right: 0px;
+      left: 49%;
+      width: 50%;
+      height: 20%;
+      margin-left: 0;
+    }
+    article{
+
+      color: black;
+      font-weight: bold;
+
+    }
+    .somos{
+      color: #FFFAF0;
+    }
+    .parrafo{
+      color: black;
+    }
+
+
+
+
+    .container-footer-all
+    {
+      width: 100%;
+      max-width: 1200px;
+
+      padding: inherit;
+    }
+
+    .colum1 p
+    {
+       font-size: 18px;
+       color: #000000;
+      margin-top: 1px;
+      text-align: justify;
+    }
+    footer
+    {
+       width: 102%;
+       background: #4CAF50;
+       color: #000000;
+    }
+
+    .container-footer-all
+    {
+      width: 100%;
+      max-width: 1100px;
+
+    }
+
+    .container-body
+    {
+     display: inline-block;
+     justify-content: space-between;
+    }
+    .container-footer
+    {
+       width: 99%;
+       background: green;
+       border-style: double;
+       border-color: black;
+    }
+
+    .footer
+    {
+       max-width: 1100px;
+       margin: auto;
+     display: flex;
+       justify-content: space-between;
+    }
+    .colum1
+    {
+       max-width: 350px;
+    }
+    .colum1 h1{
+      text-align: center;
+    }
+    .colum2 h1{
+      text-align: center;
+    }
+    .colum2{
+      text-align: center;
+      align-items: center;
+    }
+    .colum3 h1{
+      text-align: center;
+    }
+
+  }
+  /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+   @media screen (max-width: 700px){
+
+   .sidenav a{
+
+   text-align: left;
+   position: absolute;
+   left: 0;
+
+   }
+
+
+   }
+
+   @media (max-width: 700px) {
+     .logo{
+       width: 55vh;
+       height: 35vh;
+       top: 18px;
+     }
+     .imagen{
+       width: auto;
+       height: 100%;
+     }
+     .topnav{
+       visibility: visible;
+     }
+     .sidenav a{
+       font-size: 25px;
+     }
+     .lg{
+       position: relative;
+       text-align: left;
+       width: 100%;
+       height: 100%;
+     }
+   }
+   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+     .column, input[type=submit] {
+       width: 100%;
+       margin-top: 0;
+     }
+   }
+
+   /* empez: AR REPSSIVE TOP NAV; */
+
+   .topnav {
+     overflow: hidden;
+     background-color: #333;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    visibility: hidden;
+   }
+
+   .topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     position: relative;
+     top: 1%;
+   }
+
+   .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+
+   .active {
+     background-color: #4CAF50;
+     color: white;
+   }
+
+   .topnav .icon {
+     display: none;
+   }
+   .topnav .cerrar{
+     position: absolute;
+     right: 0;
+      top: 0;
+     display: none;
+   }
+
+   @media screen and (max-width: 600px) {
+     .topnav a:not(:first-child) {display: none;}
+     .topnav a.icon {
+       float: right;
+       display: block;
+     }
+     .topnav a.funda{
+       display: inline;
+       position: absolute;
+       left: 0;
+       font-size: 18px;
+       margin-right: 60px;
+       color: black;
+       font-weight: bold;
+     }
+   }
+
+   @media screen and (max-width: 600px) {
+
+   .topnav{
+     visibility: visible;
+     background-color: #4CAF50;
+   }
+     .topnav.responsive {position: relative;
+    top: 10%;
+
+     }
+     .topnav.responsive .icon {
+       position: absolute;
+       right: 0;
+        top: 0;
+     }
+     .topnav.responsive .cerrar {
+       position: absolute;
+       right: 0;
+        top: 0;
+     }
+     .topnav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+     }
+     #abrir{
+       font-size: 22px;
+       background-color: yellow;
+       color: black;
+       font-weight: bold;
+     }
+     #cerrar{
+       font-size: 32px;
+       background-color: yellow;
+       color: black;
+     }
+
+   #main{
+     visibility: hidden;
+   }
+   .topnav .funda{
+     position: absolute;
+     left:  12px;;
+      top: 0;
+      visibility:visible;
+   }
+}
+
+
+  </style>
+  <body>
+
+      <a href="../index.html"><img src="../imagenes/iconos/logoTransparente.png" alt="logo principal" class="logo"></a>
+    <hr>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html"><img class="lg" src="../imagenes/iconos/logoTransparente.png" alt=""></a> </br>
+      <a href="../proyecto/nosotros.html">Nosotros</a>
+      <a href="../proyecto/galeria.html">Galeria</a>
+      <a href="../proyecto/portafolio.html">Portafolio</a>
+      <a href="../proyecto/experiencia.html">Experiencia</a>
+      <a href="../proyecto/contacto.html">contacto</a>
+      <br>
+      <br>
+      <hr>
+      <div class="cor">
+        <a href="nosotros.html"><img src="../imagenes/iconos/espana.png" alt="logo principal" class="lo"></a>
+          <a href=""></a>
+        <a href="../ingles/proyecto/nosotros.html"><img src="../imagenes/iconos/eu.png" alt="logo principal" class="lo"></a>
+      </div>
+    </div>
+
+    <div id="main">
+      <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <h1 class="somos">QUIENES SOMOS</h1>
+    <hr>
+    <article class="quien">
+      La FUNDACION AFRODESENDIENTE “ESTA ES TU LUZ MARIA ”, Nace como una decisión de profesionales con experiencia en comunidades vulnerables de crear una organización, que incentivara iniciativas de ayudar, a la  contribución y mejoramiento de la  calidad de vida, protegiendo los derechos de los  niños, niñas, adolescentes, jóvenes, adultos y ancianos,  en alto riesgo procedentes de zonas  marginales de la ciudad.
+    </article>
+    <article class="">
+      Nuestro objetivo básico se encuentra dirigido  a las comunidades vulnerables del departamento y su área de influencia, a fin de lograr con éxito mejoramiento de su calidad de vida, a través del planeamiento y la ejecución de planes proyectos y programas que proporcionen acciones integrales en pro del bienestar de la comunidad.
+    </article>
+    <br>
+    <br>
+    <header>
+        <div class="contain">
+
+      <div>
+       <img class="cuno" src="../imagenes/uploads/mis.jpg" hspace="5" vspace="5" style="float: left;" />
+      <article class="">
+        <h1 class="somos">MISION</h1>
+        <hr>
+        Ser una institución  de carácter  social, sin ánimo de lucro que protege los derechos de los  niños, niñas, adolescentes, jóvenes, adultos y ancianos,  en alto riesgo procedentes de zonas  marginales de la ciudad, situaciones de peligro físico – moral,   que brinde una acogida cálida, con programas de apoyo nutricional, escolar a nivel interno y externo, capacitación en artes y oficios, orientación laboral, atención en psicología, salud, nutrición, Fonoaudiología, trabajo social, educación en problemas de aprendizaje ,orientación a sus familias en la búsqueda del mejoramiento de la calidad de vida, desde una perspectiva de los derechos de la niñez que les permita un fortalecimiento de su ser para un apto desenvolvimiento social.
+      </article>
+    </div>
+<div>
+ <img class="cuno" src="../imagenes/uploads/vision.jpg" hspace="5" vspace="5" style="float: right;" />
+<h1 class="somos">VISION</h1>
+<hr>
+<article class="">
+ En un plazo de cinco años, ser una institución líder en procesos de desarrollo individual, familiar, social y de derecho  que optimice el proyecto de vida de todas las comunidades desprotegidas, garantizando los derechos fundamentales de los niños niñas, adolescentes, jóvenes, adultos y ancianos como: al desarrollo, a la supervivencia, a la protección y participación buscando el mejoramiento en su calidad de vida, convertida en una institución modelo de identificación para el resto de la comunidad en especial para quienes trabajan con la infancia, cofinanciados por instituciones gubernamentales de orden nacional, departamental, municipal u ONGS nacionales e internacionales y nuestro propio esfuerzo.
+</article>
+</div>
+<br> <br> <br> <br>
+
+    <h1 class="somos">NUESTROS PROFESIONALES</h1>
+    <hr>
+    <p class="parrafo">Nuestra fundacion cuenta con un grupo de profesionales altamente capacitados, con experiencia y comprometidos con el desarrollo de los programas que ofrecemos como son:
+    Médicos, odontólogos, trabajador social, psicólogos, fisioterapeutas, ingeniero ambiental, ingeniero de sistemas, abogados, ingeniero civil, contador,  promotores de salud entre otros.
+   </p>
+  </header>
+
+
+<script type="text/javascript">
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+
+function myFunction() {
+  document.getElementById('abrir').style.visibility= "hidden";
+    document.getElementById("mySidenav").style.width= "250px";
+  document.getElementById("main").style.marginLeft="250px";
+  document.getElementById('cerrar').style.visibility="visible";
+  document.getElementById('cerrar').style.display="inline";
+}
+
+function closeNav2() {
+  document.getElementById('cerrar').style.visibility="hidden";
+  document.getElementById("mySidenav").style.width="0";
+  document.getElementById("main").style.marginLeft="0";
+  document.getElementById('abrir').style.visibility="visible";
+}
+
+
+</script>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" id="cerrar" class="cerrar" onclick="closeNav2()" >&times;</a>
+  <a href="" class="funda" >Fundación Afrodescendiente esta  es tu Luz Maria</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" id="abrir"  onclick="myFunction()">
+    <i class="fa fa-bars"></i>&#9776;
+  </a>
+</div>
+  </body>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <div class="container-footer-all">
+            <div class="container-body">
+              <div class="colum1">
+                 <h1>Fundacion Afrodescendiente esta es tu luz Maria</h1>
+                <p>Nuestro objetivo básico se encuentra dirigido  a las comunidades vulnerables del departamento y su área de influencia, a fin de lograr con éxito mejoramiento de su calidad de vida, a través del planeamiento y la ejecución de planes proyectos y programas que proporcionen acciones integrales en pro del bienestar de la comunidad</p>
+              </div>
+           <div class="colum2">
+          <h1>Redes Sociales</h1>
+              <div class="row">
+         <img src="../imagenes/iconos/facebook.png">
+        <a target="_blank" href="https://www.facebook.com/fundacionestaestuluzamaria/">siguenos en facebook</a>
+               </div>
+          <div class="row">
+        <img src="../imagenes/iconos/twitter.png">
+        <a target="_blank" href="https://twitter.com/EstaFundacion">siguenos en twitter</a>
+              </div>
+              <div class="row">
+              <img src="../imagenes/iconos/instagram.png">
+    <a target="_blank" href="https://www.instagram.com/estaestuluzmaria/">siguenos en instagram</a>
+         </div>
+                </div>
+                <div class="colum3">
+                    <h1>Informacion Contactos</h1>
+                  <div class="row2">
+                      <img src="../imagenes/iconos/ubicacion.png">
+                     <label>Los Corales Cr 56 B Mz E 18 PS 2 LC1</label>
+                    </div>
+                 <div class="row2">
+                     <img src="../imagenes/iconos/telefono.png">
+                        <label>Cel.: 312 6225419
+                          Tel: 6431026</label>
+                    </div>
+                   <div class="row2">
+                        <img src="../imagenes/iconos/correo.png">
+                         <label>fundacionafrodescendienteestaes@gmail.com  </label>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="container-footer">
+           <div class="footer">
+           <div class="copyright">
+             © 2018 Todos los Derechos Reservados | <a href="">Fundacion Afrodescendiente esta es luz Maria</a>
+                   </div>
+    </div>
+         </div>
+  </footer>
+</html>
