@@ -714,7 +714,7 @@ span
   .header-video{
     visibility: hidden;
   }
-  body{
+  section.sec1{
     background-image: url(../imagenes/galeria/galeria18.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50% !important;
